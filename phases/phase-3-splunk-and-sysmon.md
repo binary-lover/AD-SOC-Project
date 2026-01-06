@@ -111,7 +111,7 @@ and switch to splunk user
    4.
 
        <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
-9. Install splunk universal folder and Sysmon on target machine and server
+9. Install splunk Universal Forwarder and Sysmon on target machine and server
    1.  First Need to rename the target PC -> Target-PC and reboot<br>
 
        <div align="left"><figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure></div>
@@ -120,8 +120,8 @@ and switch to splunk user
        <figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
        <div align="left"><figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure></div>
-   3. Now installing Universal folder on target PC
-      1.  go to [Download](https://www.splunk.com/en_us/download/universal-forwarder/thank-you-universalforwarder.html) and download the universal folder for windows 10.<br>
+   3. Now installing Universal Forwarder on target PC
+      1.  go to [Download](https://www.splunk.com/en_us/download/universal-forwarder/thank-you-universalforwarder.html) and download the Universal Forwarder for windows 10.<br>
 
           <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
       2. double click > \
@@ -158,7 +158,7 @@ and switch to splunk user
           renderXml = true
           source = XmlWinEventLog:Microsoft-Windows-Sysmon/Operational
           ```
-      4. whenever we change input.conf need to restart splunk universal folder
+      4. whenever we change input.conf need to restart splunk Universal Forwarder
          1.  run service as administrator and search for S`plunkFolder` service<br>
 
              <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
