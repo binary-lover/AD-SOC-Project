@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Active Directory SOC Automation](README.md)
+* [Active Directory SOC Environment](README.md)
 
 ## Phases
 
